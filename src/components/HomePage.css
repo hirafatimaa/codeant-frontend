@@ -1,0 +1,403 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+/* Sidebar Styles */
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  max-width: 720px;
+  border-right: 1px solid #E9EAEB;
+  box-sizing: border-box; 
+}
+
+.stats-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Stat Card Styles */
+.stat-card {
+  width: 90%; 
+  max-width: 447px;
+  background-color: white;
+  box-shadow: 0 0 24px rgba(8, 23, 53, 0.16);
+  border-radius: 24px;
+  padding: 20px;
+  margin: 20px auto; 
+  position: relative;
+  top: 60%;
+}
+
+.stat-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-icon {
+  width: 28px;
+  height: 31px;
+  background-color: #081735;
+}
+
+.stat-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #081735;
+}
+
+.divider {
+  border-top: 1px solid #E6E8F0;
+  margin: 16px 0;
+}
+
+/* Stat Values Styles */
+.stat-values {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.stat-value {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 18px;
+  font-weight: 700;
+  color: #081735;
+}
+
+.stat-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #171717;
+}
+
+.placeholder-bar {
+  width: 284px;
+  height: 319px;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 2;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+}
+
+.content-card {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #E9EAEB;
+}
+
+/* Card Header Styles */
+.card-header {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo2 {
+  width: 36px;
+  height: 40px;
+}
+
+.app-title {
+  font-size: 30px;
+  font-weight: 400;
+  color: #181D27;
+}
+
+.welcome-message {
+  font-size: 32px;
+  font-weight: 600;
+  color: #181D27;
+}
+
+/* Container Styles */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 204px;
+  height: 133.37px;
+  left: 71%;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 0 24px rgba(8, 23, 53, 0.16);
+  border-radius: 24px;
+  padding: 20px;
+  bottom: -50%;
+  transform: translateX(-50%);
+}
+
+.circle-container {
+  width: 56px;
+  height: 56px;
+  left: 20px; 
+  top: 20px; 
+  position: absolute;
+}
+
+.outer-circle {
+  width: 56px;
+  height: 56px;
+  background-color: rgba(156, 143, 249, 0.25);
+  border-radius: 50%;
+  position: relative;
+}
+
+.inner-circle-container {
+  width: 28px;
+  height: 28px;
+  left: 14px; 
+  top: 14px; 
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section {
+  width: 65px;
+  height: 39.31px;
+  left: 139px;
+  position: absolute;
+  padding-top: 20px;
+}
+
+.percentage-text {
+  left: 7px;
+  height: 20px;
+  top: 2.03px;
+  position: absolute;
+  color: #0049c6;
+  font-size: 14px;
+  display: inline-flex; 
+  align-items: center;
+  font-weight: 700;
+}
+
+.percentage-text .arrow {
+  font-size: 14px; 
+  font-weight: 700; 
+  transform: translateY(-2px);
+  margin-right: 2px; 
+}
+
+.week-text {
+  left: 7px;
+  top: 23.31px;
+  position: absolute;
+  color: #171717;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+
+/* Fixed Container Styles */
+.fixed-container {
+  width: 108px;
+  height: 60.38px;
+  left: 20px;
+  top: 92.99px;
+  position: absolute;
+}
+
+.fixed-text {
+  left: 0;
+  top: 0;
+  position: absolute;
+  color: #171717;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.fixed-count {
+  left: 0;
+  top: 28.38px;
+  position: absolute;
+  color: #081735;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Auth Section Styles */
+.card-container {
+  width: 90%; 
+  max-width: 672px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-section {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.auth-button {
+  width: 90%; 
+  max-width: 446px;
+  padding: 16px 30px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #D8DAE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #1570EF;
+  color: white;
+}
+
+.auth-button:hover .auth-text {
+  color: white;
+}
+
+.auth-button:hover .auth-icon {
+  filter: brightness(0) invert(1); 
+}
+
+.auth-icon {
+  width: 25px;
+  height: 25.59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-text {
+  color: #171717;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Privacy Text Styles */
+a {
+  text-decoration: none; 
+}
+
+.privacy-text {
+  width: 100%;
+  text-align: center;
+}
+
+.privacy-default {
+  color: #181D27;
+  font-size: 16px;
+}
+
+/* Tab Button Styles */
+.t-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.tab-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 624px;
+  height: 60px;
+  background: #FAFAFA;
+  border-radius: 8px;
+  border: 1px #E9EAEB solid;
+  gap: 2px;
+  position: relative;
+}
+
+.tab-button {
+  height: 60px;
+  flex: 1; 
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #FAFAFA;
+  border: 1px solid #E9EAEB;
+  transition: background 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
+}
+
+.tab-button.active {
+  background-color: #1570EF; 
+  box-shadow: 0px 1px 2px rgba(10, 12.67, 18, 0.05); 
+  border: 1px solid white;
+}
+
+.tab-button-text {
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.tab-button-text.active {
+  color: white;
+}
+
+.tab-button-text.inactive {
+  color: #414651; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-page {
+    flex-direction: column; 
+  }
+
+  .side-bar,
+  .main-content {
+    width: 100%;
+  }
+
+  .stat-values {
+    flex-direction: column; 
+  }
+
+  .auth-button {
+    width: 100%; 
+  }
+}

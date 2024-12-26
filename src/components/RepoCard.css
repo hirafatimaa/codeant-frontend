@@ -1,0 +1,158 @@
+/* Card Container */
+.repo-card {
+    width: 1150px;
+    height: 108px;
+    padding: 24px 24px; 
+    border-bottom: 1px solid #d5d7da;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Inner Card Section */
+.repo-card-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0 24px; 
+}
+
+/* Repo Info Section */
+.repo-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Repo Name */
+.repo-name {
+    color: #181d27;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+/* Badge Section */
+.repo-badge {
+    padding: 2px 10px; 
+    background-color: #eff8ff;
+    border-radius: 9999px;
+    border: 1px solid #b2ddff;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Badge Text */
+.badge-text {
+    text-align: center;
+    color: #175cd3;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+/* Repo Details Section */
+.repo-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 40px;
+}
+
+/* Tech Section */
+.repo-tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Tech Name */
+.tech-name {
+    color: #181d27;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+/* Tech Dot (Separator) */
+.tech-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #1570ef;
+    border-radius: 50%; 
+}
+
+/* Repo Size Section */
+.repo-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Size Icon */
+.size-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+/* Size Info */
+.size-info {
+    color: #181d27;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+/* Update Info Section */
+.repo-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Update Info */
+.update-info {
+    color: #181d27;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+/* Hover Effect */
+.repo-card:hover {
+    background-color: #f5f5f5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .repo-card {
+        width: 100%;
+        padding: 16px; 
+    }
+
+    .repo-details {
+        flex-direction: row;
+        gap: 20px; 
+    }
+}
